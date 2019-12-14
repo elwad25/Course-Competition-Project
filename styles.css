@@ -1,0 +1,59 @@
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #34495E;
+}
+
+.blog-header-logo {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 2.25rem;
+  color: #34495E
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: #34495E
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.container{
+  background-color: #F0F3F4
+
+}
+
+/*Cards*/
+.card{
+  background-color: #5D6D7E
+}
+
+.card-title{
+  color: #ffffff;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.card-link{
+  color: #ffffff;
+  font-style: italic;
+}
+
+.card-text{
+  color: #ffffff
+}
+/*Blog posts*/
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
