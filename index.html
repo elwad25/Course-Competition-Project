@@ -7,115 +7,132 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <title>Millenial Mechanic</title>
-  </head>
-  <body>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <!--Bootstrap links-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      <header>
+  </head>
+
+  <!-- This is the stuff we see -->
+  <body>
+    <div class="container">
+      <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
             <a class="text-muted" href="#">Subscribe</a>
           </div>
           <div class="col-4 text-center">
-
-          <strong><a class="blog-header-logo text-dark font-italic" href="#">Millenial Mechanic</a> </strong>
+            <a class="blog-header-logo" href="#">Millenial Mechanic</a>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="text-muted" href="#" aria-label="Search">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
             </a>
             <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
           </div>
         </div>
-        <hr>
-        <div class="nav-scroller py-1 mb-2">
-          <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">News</a>
-            <a class="p-2 text-muted" href="#">Opinion</a>
-            <a class="p-2 text-muted" href="#">About</a>
-            <a class="p-2 text-muted" href="#">Contact</a>
-          </nav>
-        </div>
+        </header>
 
-      </header>
-      <div class="col-md-6 px-0">
+      <div class="py-1 mb-2">
+        <nav class="nav justify-content-between">
+          <a class="p-2 text-muted" href="#">Home</a>
+          <a class="p-2 text-muted" href="#">Opinion</a>
+          <a class="p-2 text-muted" href="#">News</a>
+          <a class="p-2 text-muted" href="#">Blog</a>
+          <a class="p-2 text-muted" href="#">About</a>
+          <a class="p-2 text-muted" href="#">Contact</a>
+        </nav>
+      </div>      </header>
+      <div class="jumbotron">
         <h1 class="display-4 font-italic">The Future Is Here</h1>
         <p class="lead my-3">With the reveal of Elon Musk's quirky new Cybertruck, Could the automotive industry be entering a new era?</p>
         <a href="#" class="stretched-link">Continue reading</a>
       </div>
-      <div class="col p-4 d-flex flex-column position-static">
-        <strong class="d-inline-block mb-2 text-primary">News</strong>
-        <h3 class="mb-0">Automakers are cutting 80,000 jobs globally as EV shift upends industry</h3>
-        <div class="mb-1 text-muted">Dec 06</div>
-        <p class="card-text mb-auto">It’s turning out to be one of the worst years ever for auto workers across the globe amid shrinking demand and a tectonic shift in vehicle technology, with Daimler and Audi announcing almost 20,000 job cuts in just the past week.</p>
-        <a href="#" class="stretched-link">Continue reading</a>
-      </div>
-      <div class="col p-4 d-flex flex-column position-static">
-        <strong class="d-inline-block mb-2 text-primary">Opinion</strong>
-        <h3 class="mb-0">Could these be the ugliest cars of 2019?</h3>
-        <div class="mb-1 text-muted">Dec 06</div>
-        <p class="card-text mb-auto">All in all, we’d say that this year has been very good when it comes to new car releases, but that’s not saying that there hasn’t been some bad eggs.</p>
-        <a href="#" class="stretched-link">Continue reading</a>
-      </div>
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
-        Featured Posts
-      </h3>
-      <h2 class="blog-post-title">Your Ultimate Guide To Private Plates</h2>
-      <p class="blog-post-meta">January 1, 2014 by <a href="#">Bushra</a></p>
 
-      <p>Personalised plates are a great way to personalise your car. It is a publicly visible and unusual way to make your car stand out. Others may want to show parts of their personality, and they can be a great conversation starter.</p>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+        <div class="card mb-4">
+            <div class="card-body text-center">
+                <h5 class="card-title">News</h5>
+                <p class="card-text">Carmakers Shedding 80,000 Jobs Globally as Electric Era Upends Industry</p>
+                <a href="#" class="card-link">Continue reading</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Opinion</h5>
+                <p class="card-text">Could These Be the Ugliest Cars of 2019?</p>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Tips</h5>
+                <p class="card-text">9 Secret Car Tips that Could Save You Money</p>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-      <p>However, there are a lot of misconceptions about private plates, and people often make mistakes when buying them which could end up costing them in the long run. In this article, we’re going to give you everything you need to know about private plates.</p>
-      <img src='numberplate.jpg' />
+<h3 class="pb-4 mb-4 mt-4 font-italic border-bottom"> Featured Posts</h3>
+<h2 class="blog-post-title">Your Ultimate Guide To Private Plates</h2>
+<p class="blog-post-meta">January 1, 2014 by <a href="#">Bushra</a></p>
 
-      <h2>Displaying Number Plates</h2>
-      <p><a href="https://www.express.co.uk/life-style/cars/1134417/dvla-number-plates-private-registration-uk-display-fine" data-wpel-link="external" rel="nofollow external noopener noreferrer" class="wpel-icon-right">The DVLA has strict rules<span class="wpel-icon wpel-image wpel-icon-19"></span></a> about all number plates, not just private ones. These rules are intended to create a consistent appearance of all number plates, which makes it easier for police and cameras to read the plates.<p>
-      <p>These rules also help cut down on car theft crimes, because it makes broken and unreadable plates a crime.</p>
-      <p>Number plates must have a white background on the front plate and yellow background on the rear plate. The plates cannot have a background pattern, and you can&rsquo;t put extra decorative stickers on it.</p>
-      <p>The number plate should be made from a reflective material. However, you can use 3D characters if they&rsquo;re in the mandatory font.</p>
-      <p>The characters themselves must be 79 mm tall. All characters except the number one and letter &lsquo;l&rsquo; must be 50 mm wide.</p>
-      <p>The space between most characters is 11 mm, but the space between random letters and the age identifier is 33 mm. The margins of the letter plate must be 11 mm. Older plates that don&rsquo;t meet these standards should be replaced.</p>
-      <h2>Formatting Number Plates</h2>
-      <p>Number plates must follow the only allowed format. The first two characters are letters representing the city or location. For example, BD stands for Birmingham.</p>
-      <p>Then there are two numbers &ndash; the numbers indicate the age of the vehicle, and they change twice a year. There is a space followed by three more letters. These characters are random. You are not allowed to alter or rearrange the letters and numbers to form words.</p>
-      <p>You can also get into trouble for using bolts or screws to change the letters or make them difficult to read. For example, bolts that look like letters can get you fined. Plates <a href="https://www.stabroeknews.com/2013/02/21/opinion/letters/police-impounded-vehicle-for-number-plates-with-italic-font/" data-wpel-link="external" rel="nofollow external noopener noreferrer" class="wpel-icon-right">customised with italics<span class="wpel-icon wpel-image wpel-icon-19"></span></a> are forbidden, too.</p>
-      <p>If the number plate doesn&rsquo;t read correctly, you could be hit with a fine of up to a thousand pounds.</p>
-      <p>Older number plates followed a different format than those today, but they don&rsquo;t always have to be changed.</p>
-      <p>For example, number plates fitted before the start of September 2001 don&rsquo;t have to be changed if they use a similar font to the officially allowed one.</p>
-      <hr>
-      <div class="p-4">
-        <h4 class="font-italic">Archives</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
-        </ol>
-      </div>
+<p>Personalised plates are a great way to personalise your car. It is a publicly visible and unusual way to make your car stand out. Others may want to show parts of their personality, and they can be a great conversation starter.</p>
 
-      <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
+<p>However, there are a lot of misconceptions about private plates, and people often make mistakes when buying them which could end up costing them in the long run. In this article, we’re going to give you everything you need to know about private plates.</p>
+<img src='numberplate.jpg' />
+
+<h2 class="mt-4">Displaying Number Plates</h2>
+<p><a href="https://www.express.co.uk/life-style/cars/1134417/dvla-number-plates-private-registration-uk-display-fine" data-wpel-link="external" rel="nofollow external noopener noreferrer" class="wpel-icon-right">The DVLA has strict rules<span class="wpel-icon wpel-image wpel-icon-19"></span></a> about all number plates, not just private ones. These rules are intended to create a consistent appearance of all number plates, which makes it easier for police and cameras to read the plates.<p>
+<p>These rules also help cut down on car theft crimes, because it makes broken and unreadable plates a crime.</p>
+<p>Number plates must have a white background on the front plate and yellow background on the rear plate. The plates cannot have a background pattern, and you can&rsquo;t put extra decorative stickers on it.</p>
+<p>The number plate should be made from a reflective material. However, you can use 3D characters if they&rsquo;re in the mandatory font.</p>
+<p>The characters themselves must be 79 mm tall. All characters except the number one and letter &lsquo;l&rsquo; must be 50 mm wide.</p>
+<p>The space between most characters is 11 mm, but the space between random letters and the age identifier is 33 mm. The margins of the letter plate must be 11 mm. Older plates that don&rsquo;t meet these standards should be replaced.</p>
+<h2 class="mt-4">Formatting Number Plates</h2>
+<p>Number plates must follow the only allowed format. The first two characters are letters representing the city or location. For example, BD stands for Birmingham.</p>
+<p>Then there are two numbers - the numbers indicate the age of the vehicle, and they change twice a year. There is a space followed by three more letters. These characters are random. You are not allowed to alter or rearrange the letters and numbers to form words.</p>
+<p>You can also get into trouble for using bolts or screws to change the letters or make them difficult to read. For example, bolts that look like letters can get you fined. Plates <a href="https://www.stabroeknews.com/2013/02/21/opinion/letters/police-impounded-vehicle-for-number-plates-with-italic-font/" data-wpel-link="external" rel="nofollow external noopener noreferrer" class="wpel-icon-right">customised with italics<span class="wpel-icon wpel-image wpel-icon-19"></span></a> are forbidden, too.</p>
+<p>If the number plate doesn't read correctly, you could be hit with a fine of up to a thousand pounds.</p>
+<p>Older number plates followed a different format than those today, but they don&rsquo;t always have to be changed.</p>
+<p>For example, number plates fitted before the start of September 2001 don&rsquo;t have to be changed if they use a similar font to the officially allowed one.</p>
 
 
-    </body>
+    <div class="p-4 mt-4">
+      <h4 class="font-italic">Archives</h4>
+      <ol class="list-unstyled mb-0">
+        <li><a href="#">March 2014</a></li>
+        <li><a href="#">February 2014</a></li>
+        <li><a href="#">January 2014</a></li>
+        <li><a href="#">December 2013</a></li>
+        <li><a href="#">November 2013</a></li>
+        <li><a href="#">October 2013</a></li>
+        <li><a href="#">September 2013</a></li>
+        <li><a href="#">August 2013</a></li>
+        <li><a href="#">July 2013</a></li>
+        <li><a href="#">June 2013</a></li>
+        <li><a href="#">May 2013</a></li>
+        <li><a href="#">April 2013</a></li>
+      </ol>
+    </div>
+
+    <div class="p-4">
+      <h4 class="font-italic">Elsewhere</h4>
+      <ol class="list-unstyled">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ol>
+    </div>
+  </div>
+</body>
 </html>
